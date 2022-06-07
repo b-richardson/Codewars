@@ -1,0 +1,8 @@
+// Remove every other element in an array
+
+function removeEveryOther(arr){
+ let newArry = arr.filter((e, i) => i % 2 == 0)
+ console.log(newArry)
+  return(newArry)
+}
+
