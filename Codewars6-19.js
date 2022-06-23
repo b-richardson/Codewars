@@ -7,7 +7,7 @@ function solution(str){
 
 
  var fizzBuzz = function(n) {
-    for(let i = 1; i < n.length; i++){
+    for(let i = 0; i < n.length; i++){
         if(i % 3){
            console.log('fizz')
            }else if(i % 5){
